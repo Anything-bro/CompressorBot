@@ -29,12 +29,12 @@ async def up(event):
 async def start(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.reply(
-        f"Hi `{ok.user.first_name}`\nThis is A Sahil CompressorBot By @itz_sahil_official ❤️🔥 Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too.",
+        f"Hi `{ok.user.first_name}`\nHɪɪ,I ᴀᴍ ᴠɪᴅᴇᴏ ᴄᴏᴘʀᴇꜱꜱᴏʀ ʙᴏᴛ \nɪ ᴄᴀɴ ᴄᴏᴍᴘʀᴇꜱꜱꜱ ʏᴏᴜʀ ᴠɪᴅᴇᴏꜱ ᴡɪᴛʜᴏᴜᴛ Qᴜᴀʟɪᴛʏ ᴄʜᴀɴɢᴇ \nI ᴄᴀɴ ᴀʟꜱᴏ Gᴇɴᴇʀᴀᴛᴇ Sᴀᴍᴘʟᴇ ᴀɴᴅ Sᴄʀᴇᴇɴꜱʜᴏᴛꜱ \nPᴏᴡᴇʀᴇᴅ ʙʏ: @BinaryQuest \nHᴇʟᴘ ɢʀᴏᴜᴘ: @BQChats",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
-                Button.url("SOURCE CODE", url="https://t.me/itz_sahil_official"),
-                Button.url("DEVELOPER", url="https://t.me/sahil_official_here/13"),
+                Button.url("​🇩​​🇪​​🇻", url="https://t.me/BinaryQuest"),
+                Button.url("ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/BQChats"),
             ],
         ],
     )
@@ -42,13 +42,13 @@ async def start(event):
 
 async def help(event):
     await event.reply(
-        "**🐠 Sahil CompressorBot**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Generate Sample Compressed Video\n+Easy to Use\n-Due to Quality Settings Bot Takes Time To Compress.\nSo Be patience Nd Send videos One By One After Completing.\nDont Spam Bot.\n\nJust Forward Video To Get Options"
+        "**🐠 Sahil CompressorBot**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Generate Sample Compressed Video\n+Easy to Use\n-Due to Quality Settings Bot Takes Time To Compress.\nSo Be patience Nd Send videos One By One After Completing.\nDont Spam Bot.\n\nJust Forward Video To Get Options \nTEAM @BinaryQuest"
     )
 
 
 async def ihelp(event):
     await event.edit(
-        "**🐠 Sahil CompressorBot**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Generate Sample Compressed Video\n+Screenshots Too\n+Easy to Use\n-Due to Quality Settings Bot Takes Time To Compress.\nSo Be patience Nd Send videos One By One After Completing.\nDont Spam Bot.\n\nJust Forward Video To Get Options",
+        "**🐠 Sahil CompressorBot**\n\n+This Bot Compress Videos With Negligible Quality Change.\n+Generate Sample Compressed Video\n+Screenshots Too\n+Easy to Use\n-Due to Quality Settings Bot Takes Time To Compress.\nSo Be patience Nd Send videos One By One After Completing.\nDont Spam Bot.\n\nJust Forward Video To Get Options \nTEAM @BinaryQuest",
         buttons=[Button.inline("BACK", data="beck")],
     )
 
@@ -60,8 +60,8 @@ async def beck(event):
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
-                Button.url("SOURCE CODE", url="https://t.me/itz_sahil_official"),
-                Button.url("DEVELOPER", url="https://t.me/sahil_official_here/13"),
+                Button.url("​🇩​​🇪​​🇻", url="https://t.me/BinaryQuest"),
+                Button.url("ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/BQChats"),
             ],
         ],
     )
